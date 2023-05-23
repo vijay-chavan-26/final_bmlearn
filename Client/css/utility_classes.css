@@ -1,0 +1,100 @@
+/* background colors */
+
+.bg-grey{
+    background-color: #f8f6f6;
+}
+
+.bg-grey-333{
+    background-color: #333;
+}
+.bg-eee{
+    background-color: #eee;
+}
+
+.bg-theme-color{
+    background-color: #0096FF;
+    color: #fff;
+}
+
+.bg-theme-color-hover:hover{
+    background-color: #0096FF;
+}
+
+
+/* text colors */
+
+.theme-color{
+    color: #0096FF;
+}
+
+.nav-color{
+    color: #555;
+}
+
+.text-grey-555{
+    color: #555;
+}
+.text-333{
+    color: #333;
+}
+.text-grey-ddd{
+    color: #ddd;
+}
+
+
+/* font related properties */
+
+.font-weight-500{
+    font-weight: 500;
+}
+
+/* width */
+
+.w-30{
+    width: 30%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+/* spacing */
+
+.mt-ng2{
+    margin-top: -0.25rem;
+}
+
+/* min height */
+
+.min-h-90{
+    min-height: 90%;
+}
+
+/* cursor */
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.card{
+    overflow: hidden;
+}
+
+.img-conatiner{
+    overflow: hidden;
+}
+
+.card-img{
+    height: 180px;
+    display: inline-block;
+    object-fit: cover;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.card:hover .card-img{
+    transform: scale(1.2);
+}
